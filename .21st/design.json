@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "project": {"name":"design-configurator","productType":"Reusable design selection studio","stack":["vanilla-js","css","node"]},
+  "sources": {"tokens":["core/studio.css"],"components":["core/studio.html","core/studio.js"],"instructions":["AGENTS.md","PROJECT-GUIDE.md"]},
+  "constraints": {"must":["Preserve picker, resizable split and isolated preview", "Keep project data and assets out of core", "Allow arbitrary variant counts", "Keep standalone HTML self-contained", "No package dependency required"],"avoid":["Brand-specific assumptions in the engine", "Uploading project material to external services without authorization"]},
+  "decisions": ["2026-10-06: Retain the existing configurator shell, replace the product layer with adapters", "2026-10-06: 21st resizable catalog patterns considered; existing accessible pointer/keyboard splitter is sufficient, no React dependency added", "2026-10-06: Local Node tests and browser checks used; no external source review"]
+}

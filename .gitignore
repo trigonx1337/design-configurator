@@ -1,0 +1,6 @@
+dist/
+.dev/
+review/
+node_modules/
+.env*
+*.log
